@@ -1,0 +1,11 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [id]
+      ,[FirstName]
+      ,[LastName]
+      ,[NickName]
+      ,[Brith]
+      ,[Death]
+      ,[Beginning]
+      ,[End]
+      ,[Posts]
+  FROM [CossaksProject].[dbo].[Hetmans]
